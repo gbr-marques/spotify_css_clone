@@ -8,4 +8,4 @@ O exercício consiste em uma reconstrução do <a href="https://www.figma.com/fi
 
 Como toque final, me propus o desafio de mudar o estilo da última sessão, pra que ela pudesse exibir os artistas mais escutados no app, a fim de chegar a um resultado mais próximo da plataforma oficial. Além disso, também alterei os títulos das músicas, álbuns e podcasts pra que espelhassem às músicas e criadores de conteúdo que me acompanham no dia a dia :)
 
-O projeto publicado pode ser acessado <a target="_blank" href="https://exerc-css-spotify-git-main-gbr-marques.vercel.app/">aqui</a>!
+O projeto publicado pode ser acessado <a href="https://exerc-css-spotify-git-main-gbr-marques.vercel.app/" target="_blank" >aqui</a>!
