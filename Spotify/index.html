@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.svg">
+</head>
+<body class="alura_cast">
+    <section class="player">
+        <div class="player__container">
+            <div class="player__musica">
+                <img class="player__imagem" src="./assets/img/childish gambino - awaken my love.png" alt="">
+                <h3 class="player__titulo">Me and Your Mama</h3>
+                <h4 class="player__subtitulo">Childish Gambino</p>
+            </div>
+            <div class="player__reproducao">
+                <div class="player__icones">
+                    <img class="player__icone" src="./assets/img/icone-replay.svg" alt="">
+                    <img class="player__icone" src="./assets/img/icone-anterior.svg" alt="">
+                    <img class="player__icone" src="./assets/img/icone-play.svg" alt="">
+                    <img class="player__icone" src="./assets/img/icone-proximo.svg" alt="">
+                    <img class="player__icone" src="./assets/img/icone-avancar.svg" alt="">
+                </div>
+                <div class="player__timer">
+                    10:05 <div class="cartao__player"></div> 18:35
+                </div>
+            </div>
+            <div class="player__volume">
+                <img src="./assets/img/icone-volume-down.svg" alt="" class="player__icone">
+                <div class="cartao__player"></div>
+                <img src="./assets/img/icone-volume-up.svg" alt="" class="player__icone">
+            </div>
+        </div>
+    </section>
+    <aside class="menu__lateral">
+            <div class="menu__lateral__container">
+                <ul class="menu__lateral__lista">
+                    <li>
+                        <img id="logo" src="./assets/img/logo.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="menu__lateral__container">
+                <ul class="menu__lateral__lista">
+                    <li>
+                        <div class="menu__lateral__lista__item"><img class="menu__lateral__item__icone" src="./assets/img/icone-home.svg" alt=""> Home</div>
+                    </li>
+                    <li>
+                        <div class="menu__lateral__lista__item"><img class="menu__lateral__item__icone" src="./assets/img/icone-busca.svg" alt="">Busca</div>
+                    </li>
+                    <li>
+                        <div class="menu__lateral__lista__item"><img class="menu__lateral__item__icone" src="./assets/img/icone-biblioteca.svg" alt="">Sua biblioteca</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu__lateral__container">
+                <ul class="menu__lateral__lista">
+                    <li id="menu__playlists">
+                        Playlists
+                    </li>
+                    <li>
+                        <div class="menu__lateral__lista__item"><img class="menu__lateral__item__icone" src="./assets/img/icone-add_box.svg" alt=""> Criar playlist</div>
+                    </li>
+                    <li>
+                        <div class="menu__lateral__lista__item"><img class="menu__lateral__item__icone" src="./assets/img/icone-stars.svg" alt=""> Podcasts salvos</div>
+                    </li>
+                </ul>
+            </div>
+    </aside>
+    <div class="coluna_direita">
+        <header class="cabecalho">
+            <img src="./assets/img/seta-voltar.svg" alt="">
+            <img src="./assets/img/seta-avançar.svg" alt="">
+        </header>
+
+        <main class="container">
+            <section class="secao__horizontal">
+                <div class="titulo__container">
+                  <h2 class="secao__horizontal__titulo">Tocados recentemente</h2>
+                </div>  
+                <ul class="secao__horizontal__cartoes">
+                    <li class="secao__horizontal__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/milton nascimento - clube da esquina.jpg" alt="">
+                        <h3 class="cartao__titulo">O Trem Azul</h3>
+                        <h4 class="cartao__subtitulo">Milton Nascimento, Lô Borges</h4>
+                        <div class="cartao__player"></div>
+                        <img class="cartao__botao" src="./assets/img/botao-play.png" alt="">
+                    </li>
+                    <li class="secao__horizontal__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/skank - cosmotron.jpg" alt="">
+                        <h3 class="cartao__titulo">Vou deixar</h3>
+                        <h4 class="cartao__subtitulo">Skank</h4>
+                        <div class="cartao__player"></div>
+                        <img class="cartao__botao" src="./assets/img/seta-avançar.svg" alt="">
+                    </li>
+                    <li class="secao__horizontal__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/rubel - as palavras.jpg" alt="">
+                        <h3 class="cartao__titulo">Grão de Areia</h3>
+                        <h4 class="cartao__subtitulo">Rubel, Xande de Pilares</h4>
+                        <div class="cartao__player"></div>
+                        <img class="cartao__botao" src="./assets/img/botao-play.png" alt="">                    </li>
+                    <li class="secao__horizontal__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/the killers - the man.jpg" alt="">
+                        <h3 class="cartao__titulo">The Man</h3>
+                        <h4 class="cartao__subtitulo">The Killers</h4>
+                        <div class="cartao__player"></div>
+                        <img class="cartao__botao" src="./assets/img/botao-play.png" alt="">                    </li>
+                    <li class="secao__horizontal__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/o terno - melhor do que parece.png" alt="">
+                        <h3 class="cartao__titulo">Minas Gerais</h3>
+                        <h4 class="cartao__subtitulo">O Terno</h4>
+                        <div class="cartao__player"></div>
+                        <img class="cartao__botao" src="./assets/img/botao-play.png" alt="">                    </li>
+                    <li class="secao__horizontal__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/gorillaz - cracker island.jpg" alt="">
+                        <h3 class="cartao__titulo">Controllah</h3>
+                        <h4 class="cartao__subtitulo">Gorillaz, MC Bin Laden</h4>
+                        <div class="cartao__player"></div>
+                        <img class="cartao__botao" src="./assets/img/botao-play.png" alt="">                    </li>
+                </ul>
+            </section>
+
+            <section class="secao__vertical">
+                <div class="titulo__container">
+                    <h2 class="secao__horizontal__titulo">Seus programas</h2>
+                    <a href="">Ver mais</a>
+                </div>
+                <ul class="secao__vertical__cartoes">
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/podcasts/mano a mano.jpg" alt="">
+                        <h3 class="cartao__titulo">Mano a Mano</h3>
+                        <h4 class="cartao__subtitulo">Show • Spotify Studios</h4>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/podcasts/rebobinando.jpg" alt="">
+                        <h3 class="cartao__titulo">REBOBINANDO</h3>
+                        <h4 class="cartao__subtitulo">Show • POR LUIDE MATOS</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/podcasts/nerdcast.jpg" alt="">
+                        <h3 class="cartao__titulo">NerdCast</h3>
+                        <h4 class="cartao__subtitulo">Show • Jovem Nerd</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/podcasts/jujubacast.jpg" alt="">
+                        <h3 class="cartao__titulo">Jujubacast</h3>
+                        <h4 class="cartao__subtitulo">Show • Parasol Storytelling</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/podcasts/mrg.jpg" alt="">
+                        <h3 class="cartao__titulo">Matando Robôs Gigantes</h3>
+                        <h4 class="cartao__subtitulo">Show • Matando Robôs Gigantes</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/podcasts/podpah.jpg" alt="">
+                        <h3 class="cartao__titulo">Podpah</h3>
+                        <h4 class="cartao__subtitulo">Show • Podpah</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <div class="titulo__container">
+                    <h2 class="secao__horizontal__titulo">Álbuns para você</h2>
+                    <a href="">Ver mais</a>
+                </div>
+                <ul class="secao__vertical__cartoes">
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/baianasystem - o futuro não demora.jpg" alt="">
+                        <h3 class="cartao__titulo">O Futuro Não Demora</h3>
+                        <h4 class="cartao__subtitulo">Álbum • BaianaSystem</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/childish gambino - awaken my love.png" alt="">
+                        <h3 class="cartao__titulo">"Awaken, My Love!"</h3>
+                        <h4 class="cartao__subtitulo">Álbum • Childish Gambino</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/billie eilish- happier than ever.jpg" alt="">
+                        <h3 class="cartao__titulo">Happier Than Ever</h3>
+                        <h4 class="cartao__subtitulo">Álbum • Billie Eilish</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/cartola - cartola.jpg" alt="">
+                        <h3 class="cartao__titulo">Cartola (1976)</h3>
+                        <h4 class="cartao__subtitulo">Álbum • Cartola</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/oasis - geatest hits.jpg" alt="">
+                        <h3 class="cartao__titulo">Greatest Hits - Oasis</h3>
+                        <h4 class="cartao__subtitulo">Álbum • Oasis</h4>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/albuns/radiohead - the bends.jpg" alt="">
+                        <h3 class="cartao__titulo">The Bends</h3>
+                        <h4 class="cartao__subtitulo">Álbum • Radiohead</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <div class="titulo__container">
+                    <h2 class="secao__horizontal__titulo">Artistas favoritos</h2>
+                    <a href="">Ver mais</a>
+                </div>
+                <ul id="secao__artistas" class="secao__vertical__cartoes">
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/artistas/seu jorge.jpg" alt="">
+                        <h3 class="cartao__titulo">Seu Jorge</h3>
+                        <h4 class="cartao__subtitulo">Hipsters Ponto Tech</h4>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/artistas/o grilo.jpg" alt="">
+                        <h3 class="cartao__titulo">O Grilo</h3>
+                        <h4 class="cartao__subtitulo">Hipsters Ponto Tech</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/artistas/gal costa.jpg" alt="">
+                        <h3 class="cartao__titulo">Gal Costa</h3>
+                        <h4 class="cartao__subtitulo">Hipsters Ponto Tech</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/artistas/zeca pagodinho.jpg" alt="">
+                        <h3 class="cartao__titulo">Zeca Pagodinho</h3>
+                        <h4 class="cartao__subtitulo">Hipsters Ponto Tech</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/artistas/criolo.jpeg" alt="">
+                        <h3 class="cartao__titulo">Criolo</h3>
+                        <h4 class="cartao__subtitulo">Hipsters Ponto Tech</p>
+                    </li>
+                    <li class="secao__vertical__cartao">
+                        <img class="cartao__imagem" src="./assets/img/artistas/liniker.jpg" alt="">
+                        <h3 class="cartao__titulo">Liniker</h3>
+                        <h4 class="cartao__subtitulo">Hipsters Ponto Tech</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
