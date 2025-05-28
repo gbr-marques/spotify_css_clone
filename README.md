@@ -40,6 +40,6 @@ Como toque final, me propus o desafio de mudar o estilo da última sessão, pra 
 │   └── styles.css\
 ├── index.html
 
-O deploy do projeto pode ser acessado <a target="_blank" href="exercicio-css-spotify.vercel.app" target="_blank" >aqui</a>!
+O deploy do projeto pode ser acessado <a target="_blank" href="https://exerc-css-spotify.vercel.app" target="_blank" >aqui</a>!
 
 
